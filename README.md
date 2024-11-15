@@ -79,13 +79,13 @@ La page doit afficher le menu
 Trouvez l'élément de classe CSS `menu-btn` :
 
 ```js
-toggle = ________.__________("________");
+toggle = document.querrySelector(".menu-btn");
 ```
 
 Maintenant changer à `true` l'attribut `"aria-expanded"` de l'élément référencé par la variable `toggle`.
 
 ```js
-toggle______________________________;
+toggle.ariaExpended = false ;
 ```
 
 Le bouton doit tourner de 90 degrés.
