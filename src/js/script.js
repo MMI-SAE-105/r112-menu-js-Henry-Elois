@@ -10,6 +10,3 @@ const isClosed = !isOpen;
    body.classList.toggle("noscroll", isClosed);
 });
 
-<a href="../fr/index.html" onclick="document.cookie = 
-`nf_lang=fr; path=/ ; SameSite=Strict`
-"></a>
